@@ -1,0 +1,68 @@
+.container{
+    margin: auto;
+    padding: 10%;
+}
+.total{
+    height: 500px;
+    width: 300px;
+    background-color: #99DAFA;
+    border-radius: 10px;
+    color: black;
+    margin: auto;
+}
+.albumArt{
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.musicInfo{
+    text-align: center;
+    padding-top: 5px;
+    font: 0.80rem;
+    padding-bottom: 10px;
+}
+.musicInfo h2{
+    margin: 0px;
+}
+.musicInfo h4{
+    margin: 0px;
+    font-weight: lighter;
+}
+.controls{
+    text-align: center;
+}
+.last, .stop, .next{
+    margin: auto;
+    text-align: center;
+}
+
+.controls button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 25%;
+    text-align: center;
+    display: inline-block;
+}
+.like{
+    text-align: center;
+}
+.addLike-black{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 25%;
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
+.addLike-red{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 25%;
+    text-align: center;
+    display: inline-block;
+    color: red;
+}

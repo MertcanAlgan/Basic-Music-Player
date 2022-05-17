@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="music-player.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="mp.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="total">
+            <!--Album Art-->
+            <div class="album-art">
+                <img src="img/cover.jpg" class="albumArt" alt="">
+            </div>
+            <!--Şarkıcı ve şarkı ismi-->
+            <div class="musicInfo">
+                <h2 class="songName">Sacrifice</h2>
+                <h4 class="artistName">The Weeknd</h4>
+            </div>
+            <!--Müzik Kısmı-->
+            <div class="musicPlayer">
+                <audio id="muzik" controls>
+                    <source src="music/sacrifice.mp3" class="player" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <!--Control kısmı-->
+            <div class="controls">
+                <button onclick="onceki()" class="last"><i class="fa-solid fa-backward"></i></button>
+                <button onclick="oynat()" class="stop"><i class="fa-solid fa-play"></i></button>
+                <button onclick="sonraki()" class="next"><i class="fa-solid fa-forward"></i></button>
+            </div>
+            <!--Like Kısmı-->
+            <div class="like">
+                <button onclick="begen()" class="addLike-black"><i class="fa-solid fa-heart"></i></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
